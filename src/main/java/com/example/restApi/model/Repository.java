@@ -7,7 +7,6 @@ import lombok.Setter;
 
 
 import javax.persistence.Table;
-import java.util.ArrayList;
 
 
 @Table
@@ -16,7 +15,7 @@ import java.util.ArrayList;
 @Setter
 
 @JsonIgnoreProperties       // Used at class level to mark a property or list of properties to be ignored.
-public class repository {
+public class Repository {
 
     private String name;
     private int forkQuantity;

@@ -5,9 +5,6 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table
@@ -16,7 +13,7 @@ import javax.persistence.Table;
 @Setter
 
 @JsonIgnoreProperties       // Used at class level to mark a property or list of properties to be ignored.
-public class contributor {
+public class Contributor {
 
     private String repositoryName;
     private String username;
